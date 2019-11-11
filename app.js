@@ -49,6 +49,4 @@ app.get('/apps', (req, res) => {
   res.status(200).json(apps);
 })
 
-app.listen(8000, () => {
-  console.log(`server listening at http://localhost:8000/apps`);
-});
+module.exports = app;
